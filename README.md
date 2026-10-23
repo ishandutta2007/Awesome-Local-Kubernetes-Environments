@@ -214,3 +214,12 @@ If you find this curated ecosystem list helpful for your local development workf
 <p align="center">
   <b>Built with ❤️ for DevOps engineers, software architects, and Kubernetes developers.</b>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Local-Kubernetes-Environments&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Local-Kubernetes-Environments_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Local-Kubernetes-Environments_growth.svg">
+  </picture>
+</a>
