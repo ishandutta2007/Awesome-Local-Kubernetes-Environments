@@ -64,7 +64,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 1. **[K3s](https://github.com/k3s-io/k3s)** [![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers) ⚡
+### 1. **[K3s](https://github.com/k3s-io/k3s)** [![GitHub_Stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers) ⚡
 - **Focus**: The lightweight, CNCF-certified binary for edge, IoT, and resource-constrained workstations.
 - **Architecture**: Single binary packaging under 50 MB with embedded SQLite/etcd, Traefik ingress, Flannel CNI, and Helm controller.
 - **Footprint**: **512 MB minimum RAM**—the leanest full-featured distribution in production use.
@@ -73,7 +73,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 2. **[minikube](https://github.com/kubernetes/minikube)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers) ☸️
+### 2. **[minikube](https://github.com/kubernetes/minikube)** [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers) ☸️
 - **Focus**: The official Kubernetes learning sandbox and addon-rich local cluster tool.
 - **Architecture**: Runs single-node clusters inside macOS/Linux/Windows hypervisors (Hyper-V, VirtualBox, QEMU, KVM) or container engines (Docker, Podman).
 - **Footprint**: Recommended 2 GB+ RAM and 2 vCPUs.
@@ -82,7 +82,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 3. **[Colima](https://github.com/abiosoft/colima)** [![GitHub stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers) 🐧
+### 3. **[Colima](https://github.com/abiosoft/colima)** [![GitHub_Stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers) 🐧
 - **Focus**: Minimal, blazing-fast container runtimes and Kubernetes on macOS and Linux with zero bloat.
 - **Architecture**: Leverages Lima Linux virtual machines with automatic bidirectional file sharing, port forwarding, and native Docker/containerd CLI endpoints.
 - **Footprint**: Highly configurable VM limits (defaults to 2 cores, 2 GB RAM).
@@ -91,7 +91,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 4. **[kind (Kubernetes IN Docker)](https://github.com/kubernetes-sigs/kind)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kind?style=social&color=white)](https://github.com/kubernetes-sigs/kind/stargazers) 📦
+### 4. **[kind (Kubernetes IN Docker)](https://github.com/kubernetes-sigs/kind)** [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes-sigs/kind?style=social&color=white)](https://github.com/kubernetes-sigs/kind/stargazers) 📦
 - **Focus**: The CI/CD industry standard for ephemeral, reproducible multi-node Kubernetes clusters.
 - **Architecture**: Runs each Kubernetes cluster node as an independent Docker container, booting multi-node topologies in under 30 seconds.
 - **Footprint**: Extremely low idle footprint; scales linearly with container count.
@@ -100,7 +100,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 5. **[Talos Linux](https://github.com/siderolabs/talos)** [![GitHub stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers) 🛡️
+### 5. **[Talos Linux](https://github.com/siderolabs/talos)** [![GitHub_Stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers) 🛡️
 - **Focus**: A modern, secure, and minimal OS designed specifically for Kubernetes.
 - **Architecture**: Completely immutable and ephemeral Linux distribution without SSH or shell access; managed 100% via gRPC API (`talosctl`).
 - **Footprint**: Under 100 MB kernel/initramfs image, sub-second boot times.
@@ -109,7 +109,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 6. **[vcluster](https://github.com/loft-sh/vcluster)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers) 🪆
+### 6. **[vcluster](https://github.com/loft-sh/vcluster)** [![GitHub_Stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers) 🪆
 - **Focus**: Virtual Kubernetes clusters running inside namespaces of an existing underlying cluster.
 - **Architecture**: Spins up a fully virtualized, isolated control plane (API server, controller manager, storage) inside a regular pod, sharing underlying worker node capacity.
 - **Footprint**: Virtually zero overhead beyond the light API server process.
@@ -118,7 +118,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 7. **[MicroK8s](https://github.com/canonical/microk8s)** [![GitHub stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers) 🚀
+### 7. **[MicroK8s](https://github.com/canonical/microk8s)** [![GitHub_Stars](https://img.shields.io/github/stars/canonical/microk8s?style=social&color=white)](https://github.com/canonical/microk8s/stargazers) 🚀
 - **Focus**: Canonical's zero-ops, snap-packaged Kubernetes cluster with native clustering and HA.
 - **Architecture**: Self-contained binaries managed via Snap on Linux (or automated VMs on macOS/Windows), featuring integrated Dqlite HA datastore.
 - **Footprint**: ~200 MB binary footprint; recommended 4 GB RAM for full desktop workstation workloads.
@@ -127,7 +127,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 8. **[Podman Desktop](https://github.com/containers/podman-desktop)** [![GitHub stars](https://img.shields.io/github/stars/containers/podman-desktop?style=social&color=white)](https://github.com/containers/podman-desktop/stargazers) 🦭
+### 8. **[Podman Desktop](https://github.com/containers/podman-desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/containers/podman-desktop?style=social&color=white)](https://github.com/containers/podman-desktop/stargazers) 🦭
 - **Focus**: Daemonless, open-source desktop container and Kubernetes environment GUI.
 - **Architecture**: Open-source desktop UI orchestrating rootless Podman containers, local Kind/K3s clusters, and Kubernetes resources.
 - **Footprint**: Lightweight GUI shell with configurable backing Linux virtual machine.
@@ -136,7 +136,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 9. **[Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)** [![GitHub stars](https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=social&color=white)](https://github.com/rancher-sandbox/rancher-desktop/stargazers) 🤠
+### 9. **[Rancher Desktop](https://github.com/rancher-sandbox/rancher-desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=social&color=white)](https://github.com/rancher-sandbox/rancher-desktop/stargazers) 🤠
 - **Focus**: Full-featured cross-platform Kubernetes and container management desktop application.
 - **Architecture**: Bundles K3s alongside containerd or Moby (Docker API) in an automated, managed virtual machine on macOS, Windows, and Linux.
 - **Footprint**: ~3 GB RAM recommended.
@@ -145,7 +145,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 10. **[k3d](https://github.com/k3d-io/k3d)** [![GitHub stars](https://img.shields.io/github/stars/k3d-io/k3d?style=social&color=white)](https://github.com/k3d-io/k3d/stargazers) 🐳
+### 10. **[k3d](https://github.com/k3d-io/k3d)** [![GitHub_Stars](https://img.shields.io/github/stars/k3d-io/k3d?style=social&color=white)](https://github.com/k3d-io/k3d/stargazers) 🐳
 - **Focus**: Fast, containerized K3s wrapper specifically engineered for multi-node local development and CI testing.
 - **Architecture**: Runs lightweight K3s nodes as Docker containers, mirroring Kind's architecture with K3s's minimal runtime efficiency.
 - **Footprint**: ~200 MB RAM per node.
@@ -154,7 +154,7 @@ Every major active open-source project for running Kubernetes locally, provision
 
 ---
 
-### 11. **[k0s](https://github.com/k0sproject/k0s)** [![GitHub stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers) 🎯
+### 11. **[k0s](https://github.com/k0sproject/k0s)** [![GitHub_Stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers) 🎯
 - **Focus**: Zero-friction, zero-dependencies single binary Kubernetes distribution by Mirantis.
 - **Architecture**: Completely frictionless single-binary architecture with all dependencies packaged internally; supports multiple storage backends including SQLite and etcd.
 - **Footprint**: ~160 MB binary, under 500 MB memory footprint.
@@ -167,9 +167,9 @@ Every major active open-source project for running Kubernetes locally, provision
 
 These open-source tools provide the foundational virtualization and container runtime layer beneath local Kubernetes installations:
 
-- **[Lima (Linux on Mac)](https://github.com/lima-vm/lima)** [![GitHub stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers) — Automatic Linux VMs with containerd/Docker and file forwarding.
-- **[nerdctl](https://github.com/containerd/nerdctl)** [![GitHub stars](https://img.shields.io/github/stars/containerd/nerdctl?style=social&color=white)](https://github.com/containerd/nerdctl/stargazers) — Docker-compatible CLI for containerd supporting rootless containers, lazy pulling, and Kubernetes encryption.
-- **[Multipass](https://github.com/canonical/multipass)** [![GitHub stars](https://img.shields.io/github/stars/canonical/multipass?style=social&color=white)](https://github.com/canonical/multipass/stargazers) — Canonical's lightweight Ubuntu VM orchestrator across macOS, Windows, and Linux.
+- **[Lima (Linux on Mac)](https://github.com/lima-vm/lima)** [![GitHub_Stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers) — Automatic Linux VMs with containerd/Docker and file forwarding.
+- **[nerdctl](https://github.com/containerd/nerdctl)** [![GitHub_Stars](https://img.shields.io/github/stars/containerd/nerdctl?style=social&color=white)](https://github.com/containerd/nerdctl/stargazers) — Docker-compatible CLI for containerd supporting rootless containers, lazy pulling, and Kubernetes encryption.
+- **[Multipass](https://github.com/canonical/multipass)** [![GitHub_Stars](https://img.shields.io/github/stars/canonical/multipass?style=social&color=white)](https://github.com/canonical/multipass/stargazers) — Canonical's lightweight Ubuntu VM orchestrator across macOS, Windows, and Linux.
 
 ---
 
@@ -180,7 +180,7 @@ Contributions are warmly welcomed! Help expand and maintain this developer guide
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a descriptive branch: `git checkout -b feature/add-new-k8s-tool`.
 3. 📝 Add or update entries in `README.md` following the existing format with accurate links and descriptions.
-4. ⭐ Add appropriate shields and star badges.
+4. ⭐ Add appropriate shields and Stars_Badges.
 5. 🚀 Submit a **Pull Request** with a concise summary of changes!
 
 ---
