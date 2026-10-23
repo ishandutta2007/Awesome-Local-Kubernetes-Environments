@@ -30,21 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms & Commercial Developer Environments](#saashosted-platforms--commercial-developer-environments)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
 
 
-## SaaS/Hosted Platforms
+## Sector Overview & Market Dynamics
+
+The global Kubernetes and container management market is estimated at **$2.6B to $3.1B in 2024–2025**, projected to surpass **$11B+ by 2030** (~21–24% CAGR). The ecosystem exhibits a **bifurcated market structure**: while the local developer tooling and inner-loop layer remains **highly fragmented** across dozens of specialized open-source runtimes and sandboxes, commercial production adoption and revenue are **highly concentrated** among hyperscalers (GKE, EKS, AKS) and enterprise platform vendors (Red Hat, SUSE) who use desktop and local tooling as freemium adoption funnels.
 
 
 
-- **No dedicated SaaS platforms exist for local Kubernetes environments.** These tools are inherently local-first—their purpose is to run a cluster on your machine or CI runner, not to provide a hosted service. Docker Desktop's paid tiers and Rancher Desktop's optional enterprise support are commercial wrappers around the same open-source runtime, not hosted Kubernetes services.
+## SaaS/Hosted Platforms & Commercial Developer Environments
+
+While local Kubernetes environments are inherently client-side, major platform vendors offer SaaS, commercial desktop distributions, and hosted hybrid developer environments backed by enterprise subscriptions.
+
+| Product / Platform | Company / Backer | Company Scale (Revenue / Valuation) | Starting Pricing (Paid Tiers) | Free Tier Limits / Free Trial |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Red Hat OpenShift Local](https://developers.redhat.com/products/openshift-local/overview)** | Red Hat (IBM subsidiary) | **$7.33B ARR** (Red Hat unit) / **~$34B acquisition** (IBM parent ~$200B+ market cap) | **Free local binary**; Production OpenShift starting at **~$10,000 to $13,000/socket pair/year** | **Free forever** for local dev testing; Full OpenShift features a **30-day free trial** on hybrid cloud |
+| **[SUSE Rancher Prime](https://www.rancher.com/)** | SUSE (EQT) | **~$800M Revenue** / **$2.9B–$4.5B Valuation** | Entry cloud marketplace packages starting at **$168/month** (up to 24 vCPUs); Enterprise bundles starting at **~$7,500/year** | Core Rancher open-source is **free forever** (no node cap); Managed cloud / Developer Access features a **30-day free trial** |
+| **[Canonical Ubuntu Pro / MicroK8s Support](https://canonical.com/microk8s)** | Canonical Ltd. | **~$340M Revenue** / **~$1.5B–$2.0B Valuation** | **$25/workstation/year** (Desktop Pro); Servers from **$225/server/year** | **Free forever for personal use on up to 5 machines** (up to 50 machines for official Ubuntu community members) |
+| **[Docker Desktop](https://www.docker.com/products/docker-desktop/)** | Docker, Inc. | **~$207M ARR** / **$2.1B Valuation** | Pro tier starting at **$9/user/month** (billed annually, $108/yr) or **$11/user/month** (monthly); Team at **$15/user/month** | **Free forever (Docker Personal)** strictly limited to personal use, education, open-source, or businesses with **<250 employees AND <$10M annual revenue** |
 
 
 
